@@ -1,0 +1,83 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+	background-color: #212337;
+	color:white;
+	text-align: center;
+	
+}
+
+header{
+	background-color: white;
+	color:#212337;
+	padding: 20px;
+
+}	
+
+.score-board{
+	padding:0.7em;
+	margin:1em auto;
+	position: relative;
+	border:1px solid white;
+	width: 4em;
+	font-size: 3em;
+
+	.badge{
+	position:absolute;
+	font-size: 0.3em;
+	background-color: #a73538;
+	color:white;
+	padding: 10px;
+
+	}
+	#user-lavel{
+		left:-30px;
+	}
+	#computer-lavel{
+		right:-50px;
+	}
+}
+
+.result{
+	font-size: 2em;
+}
+
+.choices{
+
+	margin:1em;
+
+	.choice{
+		display: inline-block;
+		border-radius:50%;
+		border:3px solid white;
+	}
+
+	.choice_draw{
+		border:3px solid gray;
+	}
+
+	.choice_win{
+		border:3px solid green;
+	}
+	.choice_loose{
+		border:3px solid red;
+
+	}
+
+	img{
+	width:100px;
+	padding:1.5em;
+	
+	}
+	p{
+		margin:1em;}
+}
+
+.choices div:hover{
+	cursor:pointer;
+
+}
